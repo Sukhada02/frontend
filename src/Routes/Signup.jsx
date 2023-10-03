@@ -69,7 +69,7 @@ export default function Signup() {
     if (!isSignupProcess && isSignupFail) {
       displayToast("error", isSignupMessage)
     }
-  }, [isSignupProcess])
+  }, [isSignupProcess,isSignupSuccess,isSignupFail,isSignupMessage])
 
 
   return (
